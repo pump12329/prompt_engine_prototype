@@ -1,0 +1,26 @@
+{
+  "name": "trpg_fantasy",
+  "version": "1.1",
+  "metadata": {
+    "models": ["deepseek-chat", "openai-gpt4"],
+    "language": "zh"
+  },
+  "content": {
+    "context": {
+      "setting": "奇幻世界",
+      "genre": "冒险"
+    },
+    "instructions": [
+      "生成符合奇幻风格的选项",
+      "保持选项的多样性和可行动性"
+    ],
+    "constraints": [
+      "选项数量：3-5个",
+      "每个选项不超过15个字"
+    ],
+    "output": {
+      "format": "json",
+      "fields": ["options", "reasoning"]
+    }
+  }
+} 
